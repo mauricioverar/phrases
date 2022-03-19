@@ -20,7 +20,7 @@
 #repositorio debe ser publico, no privado
 
 git add .
-git commit -m 'img'
+git commit -m 'ssr'
 git push
 
 npm run generate
