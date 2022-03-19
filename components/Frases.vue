@@ -9,7 +9,7 @@
       transition="fade-transition"
     ></v-carousel-item>
   </v-carousel>
-  <img :src="require('../static/img/planet.jpg' )" alt="" width="100%" height="100%">
+  <img :src="require('../static/img/im' + computa + '.jpg' )" alt="" width="100%" height="100%">
   </div>
 </template>
 
@@ -17,6 +17,7 @@
   export default {
     data () {
       return {
+        computa: parseInt(Math.random() * (3 - 1) + 1),
         items: [
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',

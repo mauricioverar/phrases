@@ -20,7 +20,7 @@
 #repositorio debe ser publico, no privado
 
 git add .
-git commit -m 'planet'
+git commit -m 'computa'
 git push
 
 npm run generate
