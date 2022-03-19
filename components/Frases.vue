@@ -22,7 +22,7 @@
             src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+            src: `/img/bird.jpg`,
           },
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
