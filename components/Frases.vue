@@ -17,7 +17,7 @@
   export default {
     data () {
       return {
-        computa: parseInt(Math.random() * (3 - 1) + 1),
+        computa: parseInt(Math.random() * (4 - 1) + 1),
         items: [
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
