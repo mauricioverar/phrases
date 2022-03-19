@@ -4,7 +4,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   target: 'static',
   router: {
-    base: '/frases/'
+    base: '/phrases/'
   },
   head: {
     titleTemplate: '%s - frases',
