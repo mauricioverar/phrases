@@ -20,7 +20,7 @@
 #repositorio debe ser publico, no privado
 
 git add .
-git commit -m 'im3'
+git commit -m 'im4'
 git push
 
 npm run generate
