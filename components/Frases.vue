@@ -1,4 +1,5 @@
 <template>
+<div>
   <v-carousel cycle>
     <v-carousel-item
       v-for="(item,i) in items"
@@ -8,6 +9,8 @@
       transition="fade-transition"
     ></v-carousel-item>
   </v-carousel>
+  <img :src="require('../static/img/planet.jpg' )" alt="" width="100%" height="100%">
+  </div>
 </template>
 
 <script>
