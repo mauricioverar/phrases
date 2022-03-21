@@ -20,7 +20,7 @@
 #repositorio debe ser publico, no privado
 
 git add .
-git commit -m 'frase'
+git commit -m 'autor'
 git push
 
 npm run generate
