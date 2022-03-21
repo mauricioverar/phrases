@@ -20,7 +20,7 @@
 #repositorio debe ser publico, no privado
 
 git add .
-git commit -m 'random alt'
+git commit -m 'default'
 git push
 
 npm run generate

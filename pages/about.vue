@@ -1,3 +1,5 @@
 <template>
-    <h1>about</h1>
+  <div class="about">
+    <h1>by Mauricio Vera R</h1>
+  </div>
 </template>
