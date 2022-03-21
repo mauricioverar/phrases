@@ -9,7 +9,7 @@
       transition="fade-transition"
     ></v-carousel-item>
   </v-carousel> -->
-  <img :src="require('../static/img/im' + computa + '.jpg' )" :alt="items[computa].txt" width="100%" height="100%">
+  <img :src="require('../static/img/frase' + computa + '.webp' )" :alt="items[computa].txt" width="100%" height="100%">
   </div>
 </template>
 
