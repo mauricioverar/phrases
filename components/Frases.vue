@@ -9,7 +9,7 @@
       transition="fade-transition"
     ></v-carousel-item>
   </v-carousel> -->
-  <img :src="require('../static/img/im' + computa + '.jpg' )" alt="" width="100%" height="100%">
+  <img :src="require('../static/img/im' + computa + '.jpg' )" :alt="items[computa].txt" width="100%" height="100%">
   </div>
 </template>
 
@@ -17,19 +17,19 @@
   export default {
     data () {
       return {
-        computa: parseInt(Math.random() * (5 - 1) + 1),
+        computa: parseInt(Math.random() * 4), // (5 - 1) + 1
         items: [
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+            txt: 'planeta',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+            txt: 'pajaro',
           },
           {
-            src: `/img/bird.jpg`,
+            txt: 'ardilla',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+            txt: 'cielo',
           },
         ],
       }
