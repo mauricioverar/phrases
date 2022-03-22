@@ -20,7 +20,7 @@
 #repositorio debe ser publico, no privado
 
 git add .
-git commit -m 'autor'
+git commit -m '9'
 git push
 
 npm run generate
