@@ -1,6 +1,5 @@
 <template>
 <div>
-  <h1>{{computa}} </h1>
   <img :src="require('../static/img/frase' + computa + '.webp' )" :alt="items[computa].txt" :title="items[computa].autor" width="100%" height="100%">
   </div>
 </template>
