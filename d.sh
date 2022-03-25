@@ -20,7 +20,7 @@
 #repositorio debe ser publico, no privado
 
 git add .
-git commit -m '9*10'
+git commit -m 'mia'
 git push
 
 npm run generate

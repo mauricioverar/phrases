@@ -8,7 +8,7 @@
   export default {
     data () {
       return {
-        computa: parseInt(Math.random() * 10),
+        computa: parseInt(Math.random() * 11),
         items: [
           {
             id: 0,
@@ -59,6 +59,11 @@
             id: 9,
             txt: 'Cualquier persona que deja de aprender se vuelve viejo, ya sea a los veinte o a los ochenta. Cualquier persona que sigue aprendiendo se mantiene joven. La cosa más importante en la vida es mantener la mente joven.',
             autor: 'Henry Ford.'
+          },
+          {
+            id: 10,
+            txt: 'Disfruta diviértete aprende y sé feliz',
+            autor: 'Mauricio Vera Rodríguez'
           },
           {
             id: 99,
