@@ -8,7 +8,7 @@
   export default {
     data () {
       return {
-        computa: parseInt(Math.random() * 11),
+        computa: parseInt(Math.random() * 12),
         items: [
           {
             id: 0,
@@ -66,6 +66,11 @@
             autor: 'Mauricio Vera Rodríguez'
           },
           {
+            id: 11,
+            txt: 'Mejor que mil palabras vacías, es la palabra que trae la paz.',
+            autor: 'Buda'
+          },
+          {
             id: 99,
             txt: '',
             autor: ''
@@ -75,3 +80,9 @@
     }
   }
 </script>
+
+<style scoped>
+img {
+  position: absolute;
+}
+</style>

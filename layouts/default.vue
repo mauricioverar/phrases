@@ -1,10 +1,8 @@
 <template>
 <!-- barra -->
-  <v-app dark>
+  <v-app >
     <v-main>
-      <v-container>
-        <Nuxt />
-      </v-container>
+      <Nuxt />
     </v-main>
     <v-footer
       :absolute="!fixed"

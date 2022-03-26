@@ -20,7 +20,7 @@
 #repositorio debe ser publico, no privado
 
 git add .
-git commit -m 'mia'
+git commit -m 'absolute'
 git push
 
 npm run generate
