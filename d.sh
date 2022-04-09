@@ -20,7 +20,7 @@
 #repositorio debe ser publico, no privado
 
 git add .
-git commit -m 'absolute'
+git commit -m '12'
 git push
 
 npm run generate

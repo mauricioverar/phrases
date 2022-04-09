@@ -8,7 +8,7 @@
   export default {
     data () {
       return {
-        computa: parseInt(Math.random() * 12),
+        computa: parseInt(Math.random() * 13),
         items: [
           {
             id: 0,
@@ -69,6 +69,11 @@
             id: 11,
             txt: 'Mejor que mil palabras vacías, es la palabra que trae la paz.',
             autor: 'Buda'
+          },
+          {
+            id: 12,
+            txt: 'Que maravilloso ver a naciones enfrentadas en los deportes, mas nó en guerras',
+            autor: 'Mauricio Vera Rodríguez'
           },
           {
             id: 99,
